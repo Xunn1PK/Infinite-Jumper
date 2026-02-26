@@ -32,7 +32,7 @@
     {"id":{"name":"scr_ini","path":"scripts/scr_ini/scr_ini.yy",},},
     {"id":{"name":"scr_json","path":"scripts/scr_json/scr_json.yy",},},
     {"id":{"name":"scr_mouse","path":"scripts/scr_mouse/scr_mouse.yy",},},
-    {"id":{"name":"scr_player_animation","path":"scripts/scr_player_animation/scr_player_animation.yy",},},
+    {"id":{"name":"scr_player_animate","path":"scripts/scr_player_animate/scr_player_animate.yy",},},
     {"id":{"name":"scr_player_move","path":"scripts/scr_player_move/scr_player_move.yy",},},
     {"id":{"name":"scr_rotate","path":"scripts/scr_rotate/scr_rotate.yy",},},
     {"id":{"name":"scr_text","path":"scripts/scr_text/scr_text.yy",},},

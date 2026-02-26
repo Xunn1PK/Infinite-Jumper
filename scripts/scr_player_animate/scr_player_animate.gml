@@ -1,4 +1,4 @@
-function player_animation(){
+function player_animate(){
     //Left/right flip
     if (keyboard_check(ord("A"))){
         image_xscale = -1;

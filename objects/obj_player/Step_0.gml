@@ -9,6 +9,6 @@
 
 //Main logic
 if (!dead){
-    player_move(hspd, vspd, step, impulse, grav);
-    player_animation(hspd, vspd);
+    player_move();
+    player_animate();
 }
