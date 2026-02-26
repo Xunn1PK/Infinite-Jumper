@@ -20,8 +20,14 @@ function player_logic(){
     }
     
     //Physics and Y Move
-    if (place_meeting(x, y, obj_solid) && !place_meeting(x, y - 16, obj_solid)){
-        y--;
+    //Wall push (if player stuck in the wall)
+    if (place_meeting(x, y, obj_solid)){
+        if (place_meeting(x, y + 16, obj_solid)){
+            y--;
+        }
+        else if (!place_meeting(x, y + 16, obj_solid)){
+            y++;
+        }
     }
     if (place_meeting(x, y + 1, obj_solid)){
         if (mouse(mb_left, MOUSE.HOLD, false)){
