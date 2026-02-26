@@ -1,0 +1,1 @@
+global.respawn_time = 60;

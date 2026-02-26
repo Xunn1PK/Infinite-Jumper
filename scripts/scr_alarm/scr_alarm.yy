@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_player_move",
+  "%Name":"scr_alarm",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_player_move",
+  "name":"scr_alarm",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Player.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

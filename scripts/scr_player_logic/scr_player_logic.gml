@@ -1,6 +1,12 @@
 //USE ONLY IN obj_player!!!
 
-function player_move(){
+function player_logic(){
+    //Death check
+    if (dead){
+        set_alarm(0, 60);
+        return;
+    }
+    
     //X Move
     var dir = keyboard_check(ord("D")) - keyboard_check(ord("A"));
     hspd = step * dir;
@@ -28,5 +34,10 @@ function player_move(){
             y += sign(vspd) / 2;
         }
         vspd = 0;
+    }
+    
+    //Death
+    if (place_meeting(x, y, obj_hazard)){
+        dead = true;
     }
 }
