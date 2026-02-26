@@ -4,6 +4,9 @@ function player_animate(){
     //Death
     if (dead){
         sprite_index = spr_player_death;
+        if (image_index >= 8){
+            image_index = 7;
+        }
         return;
     }
     
