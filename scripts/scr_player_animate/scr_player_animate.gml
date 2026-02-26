@@ -19,12 +19,12 @@ function player_animate(){
     }
     
     //Idle
-    if (hspd == 0 && vspd == 0){
+    if (x == xprevious && y == yprevious){
         sprite_index = spr_player_idle;
     }
     
     //Move
-    else if (hspd != 0 && vspd == 0){
+    else if (x != xprevious && y == yprevious){
         sprite_index = spr_player_move;
     }
     
@@ -32,10 +32,10 @@ function player_animate(){
     //Jump and fall + move variations
     else {
         var cond = [
-            hspd != 0 && vspd < 0,
-            hspd == 0 && vspd < 0,
-            hspd != 0 && vspd > 0,
-            hspd == 0 && vspd > 0
+            x != xprevious && y < yprevious,
+            x == xprevious && y < yprevious,
+            x != xprevious && y > yprevious,
+            x == xprevious && y > yprevious
         ];
         var spr = [
             [spr_player_jump_move, spr_player_jump_move_loop],
