@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_set_sprites",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_set_sprites",
+  "parent":{
+    "name":"Custom",
+    "path":"folders/gooey/Custom.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
