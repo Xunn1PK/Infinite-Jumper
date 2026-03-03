@@ -1,5 +1,5 @@
 global.respawn_time = 60;
-global.strings = json_load("strings_en.json");
+load_localization("en-US");
 
 //Initialize directories for custom levels
 if (GM_build_type == "exe"){

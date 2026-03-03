@@ -20,9 +20,8 @@ button_start.setCallback(UI_EVENT.LEFT_RELEASE, function(){
 set_button_sprites(button_exit, spr_baseui_button_hover, spr_baseui_button_pressed, spr_baseui_button);
 button_exit.setCallback(UI_EVENT.LEFT_RELEASE, function(){
     var panel_exit = new UIPanel("MainMenuExit", 0, 0, 600, 250, spr_baseui_panel, UI_RELATIVE_TO.MIDDLE_CENTER);
-    panel_exit.setDraggable(false).setResizable(false);
+    panel_exit.setDraggable(false).setResizable(false).setVisible(true).setModal(true);
     var text = new UIText("exit_dialog", 0, -50, $"[fa_center][fa_middle]{TID("exit_confirm_dialog")}", UI_RELATIVE_TO.MIDDLE_CENTER);
-    panel_exit.setVisible(true).setModal(true);
     var button_yes = new UIButton("button_exit_yes", -150, 50, 200, 75, TID("yes"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
     var button_no = new UIButton("button_exit_no", 150, 50, 200, 75, TID("no"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
     set_button_sprites(button_yes, spr_baseui_button_hover, spr_baseui_button_pressed, spr_baseui_button);

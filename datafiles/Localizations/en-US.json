@@ -1,7 +1,8 @@
 {
-	"start": "Start",
+    "start": "Start",
     "exit": "Exit",
     "exit_confirm_dialog": "Are you sure want to exit?",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "localization_error": "Localization is not found :("
 }

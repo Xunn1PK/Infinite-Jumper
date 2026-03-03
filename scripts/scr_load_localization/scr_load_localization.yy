@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_tid",
+  "%Name":"scr_load_localization",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_tid",
+  "name":"scr_load_localization",
   "parent":{
     "name":"Localization Tools",
     "path":"folders/Scripts/Localization Tools.yy",
