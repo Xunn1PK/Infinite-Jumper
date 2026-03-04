@@ -36,6 +36,7 @@
     {"$GMFolder":"","%Name":"Test Sprites - Kenney UI","folderPath":"folders/gooey/Test Sprites - Kenney UI.yy","name":"Test Sprites - Kenney UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Default Placeholders","folderPath":"folders/gooey/Test Sprites - Kenney UI/Default Placeholders.yy","name":"Default Placeholders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"UI Controllers","folderPath":"folders/Objects/UI Controllers.yy","name":"UI Controllers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Common Tools","folderPath":"folders/Scripts/Common Tools.yy","name":"Common Tools","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -50,6 +51,8 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"!!! LEVEL_TEMPLATE !!!.json","CopyToMask":0,"filePath":"datafiles/Data","name":"!!! LEVEL_TEMPLATE !!!.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"level_debug.json","CopyToMask":-1,"filePath":"datafiles/Data","name":"level_debug.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"en-US.json","CopyToMask":-1,"filePath":"datafiles/Localizations","name":"en-US.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"ru-RU.json","CopyToMask":-1,"filePath":"datafiles/Localizations","name":"ru-RU.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -64,6 +67,7 @@
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_hazard","path":"objects/obj_hazard/obj_hazard.yy",},},
+    {"id":{"name":"obj_level_select_controller","path":"objects/obj_level_select_controller/obj_level_select_controller.yy",},},
     {"id":{"name":"obj_main_menu","path":"objects/obj_main_menu/obj_main_menu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
@@ -72,6 +76,7 @@
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
     {"id":{"name":"UI","path":"objects/UI/UI.yy",},},
     {"id":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
+    {"id":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"__Configuration__","path":"scripts/__Configuration__/__Configuration__.yy",},},
     {"id":{"name":"__scribble_class_element","path":"scripts/__scribble_class_element/__scribble_class_element.yy",},},
@@ -125,6 +130,7 @@
     {"id":{"name":"scr_directory","path":"scripts/scr_directory/scr_directory.yy",},},
     {"id":{"name":"scr_ini","path":"scripts/scr_ini/scr_ini.yy",},},
     {"id":{"name":"scr_json","path":"scripts/scr_json/scr_json.yy",},},
+    {"id":{"name":"scr_levels","path":"scripts/scr_levels/scr_levels.yy",},},
     {"id":{"name":"scr_load_localization","path":"scripts/scr_load_localization/scr_load_localization.yy",},},
     {"id":{"name":"scr_mouse","path":"scripts/scr_mouse/scr_mouse.yy",},},
     {"id":{"name":"scr_player_animate","path":"scripts/scr_player_animate/scr_player_animate.yy",},},
@@ -426,6 +432,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
+    {"roomId":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
