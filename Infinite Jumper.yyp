@@ -163,7 +163,7 @@
     {"id":{"name":"scr_UI_Text","path":"scripts/scr_UI_Text/scr_UI_Text.yy",},},
     {"id":{"name":"scr_UI_TextBox","path":"scripts/scr_UI_TextBox/scr_UI_TextBox.yy",},},
     {"id":{"name":"scr_UI_Widget","path":"scripts/scr_UI_Widget/scr_UI_Widget.yy",},},
-    {"id":{"name":"scr_warp","path":"scripts/scr_warp/scr_warp.yy",},},
+    {"id":{"name":"scr_wrap","path":"scripts/scr_wrap/scr_wrap.yy",},},
     {"id":{"name":"scribble_add_macro","path":"scripts/scribble_add_macro/scribble_add_macro.yy",},},
     {"id":{"name":"scribble_anim_blink","path":"scripts/scribble_anim_blink/scribble_anim_blink.yy",},},
     {"id":{"name":"scribble_anim_cycle","path":"scripts/scribble_anim_cycle/scribble_anim_cycle.yy",},},

@@ -5,6 +5,7 @@
     "yes": "Yes",
     "no": "No",
     "localization_error": "Localization is not found :(",
+    "level": "Level",
     "level_debug": "Debug Level",
     "level_debug2": "Same debug level",
     "difficulty_0": "Easier",
