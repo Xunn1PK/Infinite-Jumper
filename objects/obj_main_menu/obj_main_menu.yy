@@ -8,8 +8,8 @@
   "name":"obj_main_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI Controllers",
-    "path":"folders/Objects/UI Controllers.yy",
+    "name":"UI",
+    "path":"folders/Objects/Controllers/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

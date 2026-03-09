@@ -13,7 +13,7 @@ panel.add(button_exit);
 //Configuring buttons
 set_button_sprites(button_start, spr_baseui_button_hover, spr_baseui_button_pressed, spr_baseui_button);
 button_start.setCallback(UI_EVENT.LEFT_RELEASE, function(){
-    transition(rm_debug);
+    transition(rm_level_select);
     ui_get("MainMenu").destroy();
 });
 

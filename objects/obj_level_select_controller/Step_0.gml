@@ -1,0 +1,1 @@
+lvl_tid = TID(global.levels[selected_lvl].Metadata.Name);

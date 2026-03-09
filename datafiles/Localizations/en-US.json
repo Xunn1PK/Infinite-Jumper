@@ -6,6 +6,7 @@
     "no": "No",
     "localization_error": "Localization is not found :(",
     "level_debug": "Debug Level",
+    "level_debug2": "Same debug level",
     "difficulty_0": "Easier",
     "difficulty_1": "Easy",
     "difficulty_2": "Normal",
