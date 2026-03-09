@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_tid",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Localization Tools",
+    "path":"folders/Scripts/Localization Tools.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
