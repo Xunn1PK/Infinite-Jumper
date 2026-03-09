@@ -1,2 +1,2 @@
 player_logic();
-player_animate();
+sprite_index = player_get_sprite();
