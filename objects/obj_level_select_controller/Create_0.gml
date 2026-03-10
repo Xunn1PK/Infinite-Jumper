@@ -1,4 +1,5 @@
 selected_lvl = 0;
+first_lvl = 0;
 
 update_text = function(){
     ui_get("Level_text").setText($"{global.levels[selected_lvl].Name}");
@@ -27,13 +28,13 @@ update_text();
 
 button_left.setCallback(UI_EVENT.LEFT_RELEASE, function(){
     selected_lvl -= 1;
-    selected_lvl = wrap(selected_lvl, 0, array_length(global.levels) - 1);
+    selected_lvl = wrap(selected_lvl, first_lvl, array_length(global.levels) - 1);
     update_text();
 });
 
 button_right.setCallback(UI_EVENT.LEFT_RELEASE, function(){
     selected_lvl += 1;
-    selected_lvl = wrap(selected_lvl, 0, array_length(global.levels) - 1);
+    selected_lvl = wrap(selected_lvl, first_lvl, array_length(global.levels) - 1);
     update_text();
 });
 
