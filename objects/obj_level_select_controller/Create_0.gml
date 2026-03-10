@@ -7,7 +7,7 @@ panel_level.setResizable(false).setMovable(false);
 panel_inv.setResizable(false).setMovable(false);
 
 scribble_font_force_bilinear_filtering("fnt_main", false);
-var lvl_text = new UIText("Level_text", 0, -64, $"[scale, 1.5]{global.levels[selected_lvl].Metadata.Name}[/scale]");
+var lvl_text = new UIText("Level_text", 0, -64, $"{global.levels[selected_lvl].Metadata.Name}");
 var lvl_num_text = new UIText("LevelNum_text", 0, -106, $"[scale, 0.75]{TID("UI", "level")} {selected_lvl}[/scale]");
 
 var button_left = new UIButton("LevelSelect_left", 16, 0, 64, 128, "<", spr_baseui_button, UI_RELATIVE_TO.MIDDLE_LEFT);
@@ -21,13 +21,13 @@ set_button_sprites(button_start, spr_baseui_button_hover, spr_baseui_button_pres
 button_left.setCallback(UI_EVENT.LEFT_RELEASE, function(){
     selected_lvl -= 1;
     selected_lvl = wrap(selected_lvl, 0, array_length(global.levels) - 1);
-    ui_get("Level_text").setText($"[scale, 1.5]{global.levels[selected_lvl].Metadata.Name}[/scale]");
+    ui_get("Level_text").setText($"{global.levels[selected_lvl].Metadata.Name}");
     ui_get("LevelNum_text").setText($"[scale, 0.75]{TID("UI", "level")} {selected_lvl}[/scale]");
 });
 button_right.setCallback(UI_EVENT.LEFT_RELEASE, function(){
     selected_lvl += 1;
     selected_lvl = wrap(selected_lvl, 0, array_length(global.levels) - 1);
-    ui_get("Level_text").setText($"[scale, 1.5]{global.levels[selected_lvl].Metadata.Name}[/scale]");
+    ui_get("Level_text").setText($"{global.levels[selected_lvl].Metadata.Name}");
     ui_get("LevelNum_text").setText($"[scale, 0.75]{TID("UI", "level")} {selected_lvl}[/scale]");
 });
 button_start.setCallback(UI_EVENT.LEFT_RELEASE, function(){

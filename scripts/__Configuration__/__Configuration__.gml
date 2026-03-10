@@ -50,4 +50,4 @@
 #macro		UI_DEFAULT_ANCHOR_POINT					UI_RELATIVE_TO.MIDDLE_CENTER
 
 // Whether to use GPU scissors (true) or resort to surfaces (false) for rendering. By default, true (Experimental as of 2025.11)
-#macro		UI_USE_SCISSORS							false
+#macro		UI_USE_SCISSORS							true
