@@ -1,5 +1,6 @@
 {
     "Name": "[scale, 1.5]Debug Level[/scale]",
     "Difficulty": "0",
-    "DifficultyFace": "easy"
+    "DifficultyFace": "easy",
+    "Room": "rm_level_debug"
 }
