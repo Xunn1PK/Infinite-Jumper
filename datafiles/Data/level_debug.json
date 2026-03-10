@@ -1,5 +1,5 @@
 {
-    "Name": "level_debug",
-    "Difficulty": "difficulty_0",
+    "Name": "Debug Level",
+    "Difficulty": "0",
     "DifficultyFace": "easy"
 }

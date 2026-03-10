@@ -1,19 +1,21 @@
 {
-    "start": "Start",
-    "exit": "Exit",
-    "exit_confirm_dialog": "Are you sure want to exit?",
-    "yes": "Yes",
-    "no": "No",
-    "localization_error": "Localization is not found :(",
-    "level": "Level",
-    "level_debug": "Debug Level",
-    "level_debug2": "Same debug level",
-    "difficulty_0": "Easier",
-    "difficulty_1": "Easy",
-    "difficulty_2": "Normal",
-    "difficulty_3": "Hard",
-    "difficulty_4": "Harder",
-    "difficulty_5": "Insane",
-    "difficulty_6": "Brutal",
-    "difficulty_7": "Extreme"
+    "UI": {
+        "start": "Start",
+        "exit": "Exit",
+        "exit_confirm": "Are you sure want to exit?",
+        "yes": "Yes",
+        "no": "No",
+        "localization_error": "Localozation is not found :(",
+        "level": "Level"
+    },
+    "Difficulty": [
+        "easier",
+        "easy",
+        "normal",
+        "hard",
+        "harder",
+        "insane",
+        "brutal",
+        "extreme"
+    ]
 }
