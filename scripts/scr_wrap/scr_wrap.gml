@@ -3,7 +3,7 @@
 /// @param {Real} min_val Minimal possible value
 /// @param {Real} max_val Maximal possible value
 /// @returns {Real}
-function warp(value, min_val, max_val){
+function wrap(value, min_val, max_val){
     show_debug_message($"{value}\n{min_val}\n{max_val}");
     if (value < min_val){
         return max_val;

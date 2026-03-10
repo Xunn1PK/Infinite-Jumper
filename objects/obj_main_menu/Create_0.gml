@@ -3,8 +3,8 @@ var panel = new UIPanel("MainMenu", 0, 0, 500, 400, undefined, UI_RELATIVE_TO.MI
 panel.setMovable(false).setResizable(false);
 
 //Buttons
-var button_start = new UIButton("ButtonMainMenuStart", 0, -75, 200, 75, TID("start"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
-var button_exit = new UIButton("ButtonMainMenuExit", 0, 75, 200, 75, TID("exit"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
+var button_start = new UIButton("ButtonMainMenuStart", 0, -75, 200, 75, TID("UI", "start"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
+var button_exit = new UIButton("ButtonMainMenuExit", 0, 75, 200, 75, TID("UI", "exit"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
 
 //Add buttons to the panel
 panel.add(button_start);
@@ -21,9 +21,9 @@ set_button_sprites(button_exit, spr_baseui_button_hover, spr_baseui_button_press
 button_exit.setCallback(UI_EVENT.LEFT_RELEASE, function(){
     var panel_exit = new UIPanel("MainMenuExit", 0, 0, 600, 250, spr_baseui_panel, UI_RELATIVE_TO.MIDDLE_CENTER);
     panel_exit.setDraggable(false).setResizable(false).setVisible(true).setModal(true).setCloseButtonSprite(spr_baseui_close);
-    var text = new UIText("exit_dialog", 0, -50, $"[fa_center][fa_middle]{TID("exit_confirm_dialog")}", UI_RELATIVE_TO.MIDDLE_CENTER);
-    var button_yes = new UIButton("button_exit_yes", -150, 50, 200, 75, TID("yes"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
-    var button_no = new UIButton("button_exit_no", 150, 50, 200, 75, TID("no"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
+    var text = new UIText("exit_dialog", 0, -50, $"{TID("UI", "exit_confirm")}", UI_RELATIVE_TO.MIDDLE_CENTER);
+    var button_yes = new UIButton("button_exit_yes", -150, 50, 200, 75, TID("UI", "yes"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
+    var button_no = new UIButton("button_exit_no", 150, 50, 200, 75, TID("UI", "no"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
     set_button_sprites(button_yes, spr_baseui_button_hover, spr_baseui_button_pressed, spr_baseui_button);
     set_button_sprites(button_no, spr_baseui_button_hover, spr_baseui_button_pressed, spr_baseui_button);
     button_yes.setCallback(UI_EVENT.LEFT_RELEASE, function(){

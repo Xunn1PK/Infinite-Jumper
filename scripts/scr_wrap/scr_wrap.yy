@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_warp",
+  "%Name":"scr_wrap",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_warp",
+  "name":"scr_wrap",
   "parent":{
     "name":"Common Tools",
     "path":"folders/Scripts/Common Tools.yy",
