@@ -4,6 +4,6 @@ function load_localization(lang){
         show_debug_message($"Localization {lang} is loaded!");
     }
     else {
-        show_message(TID("localization_error"));
+        show_message(TID("UI", "localization_error"));
     }
 }
