@@ -4,3 +4,4 @@ step = 5;
 impulse = -13;
 grav = 1;
 dead = false;
+sliding = false;

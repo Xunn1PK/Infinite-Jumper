@@ -34,6 +34,13 @@ function player_logic(){
         if (mouse(mb_left, MOUSE.HOLD, false)){
             vspd = impulse;
         }
+        if (!place_meeting(x + dir, y - 4, obj_solid) && place_meeting(x + dir, y, obj_solid)){
+            sliding = true;
+            y -= 4;
+        }
+        else {
+            sliding = false;
+        }
     }
     else {
         vspd += grav;

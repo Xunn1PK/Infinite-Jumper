@@ -23,7 +23,7 @@ function player_animate(){
         if (place_meeting(x, y + 1, obj_solid)){
             sprite_index = spr_player_move;
         }
-        else {
+        else if (!sliding){
             sprite_index = (vspd < -2) ? spr_player_jump_move : spr_player_fall_move;
         }
     }
