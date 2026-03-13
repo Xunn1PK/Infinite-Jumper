@@ -1,5 +1,5 @@
 global.respawn_time = 60;
-global.levels = get_levels();
+global.levels = load_levels();
 load_localization("en-US");
 
 //Initialize directories for custom levels
