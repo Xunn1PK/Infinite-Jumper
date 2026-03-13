@@ -4,7 +4,6 @@
 /// @param {Real} max_val Maximal possible value
 /// @returns {Real}
 function wrap(value, min_val, max_val){
-    show_debug_message($"{value}\n{min_val}\n{max_val}");
     if (value < min_val){
         return max_val;
     }

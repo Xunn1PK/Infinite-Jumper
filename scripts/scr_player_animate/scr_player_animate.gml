@@ -1,6 +1,6 @@
 //USE ONLY IN obj_player!!!
 /// @desc Returns sprites, depending on X and Y difference between current and previous frame
-/// @return {Asset.GMSprite} Player sprite
+/// @returns {Asset.GMSprite} Player sprite
 function player_animate(){
     var x_diff = x - xprevious;
     var y_diff = y - yprevious;

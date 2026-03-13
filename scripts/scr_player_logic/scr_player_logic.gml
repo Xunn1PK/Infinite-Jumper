@@ -1,5 +1,6 @@
 //USE ONLY IN obj_player!!!
 
+/// @desc Main player logic script (move, physics, death etc.)
 function player_logic(){
     //Death check
     if (dead){

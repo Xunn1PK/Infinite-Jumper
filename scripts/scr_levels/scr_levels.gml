@@ -1,3 +1,5 @@
+/// @desc Load levels from Data folder
+/// @returns {Array<Struct>}
 function load_levels(){
     var path = "Data/";
     var output = [];

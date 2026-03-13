@@ -1,3 +1,7 @@
+/// @desc Returns string from global.strings struct. If section/key not exists, returns placeholder (to prevent game crash)
+/// @param {String} section Section in global.strings struct
+/// @param {String} key Key in section
+/// @returns {String}
 function TID(section, key){
     if (variable_struct_exists(global.strings, section)){
         var sec = variable_struct_get(global.strings, section);
