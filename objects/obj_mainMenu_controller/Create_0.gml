@@ -6,15 +6,15 @@ panel.setMovable(false).setResizable(false);
 var button = new UIButton("ButtonMainMenuStart", 0, -150, 200, 75, TID("UI", "start"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
 button.setImageMouseover(1).setImageClick(2).setCallback(UI_EVENT.LEFT_RELEASE, function(){
     transition(rm_level_select);
-    ui_get("MainMenu").destroy();
+    ui_get("MainMenu_panel").destroy();
 });
 panel.add(button);
 
 //Options button 
-button = new UIButton("ButtonMainMenuOptions", 0, -150, 200, 75, TID("UI", "options"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
+button = new UIButton("ButtonMainMenuOptions", 0, 0, 200, 75, TID("UI", "options"), spr_baseui_button, UI_RELATIVE_TO.MIDDLE_CENTER);
 button.setImageMouseover(1).setImageClick(2).setCallback(UI_EVENT.LEFT_RELEASE, function(){
     transition(rm_options);
-    ui_get("MainMenu").destroy();
+    ui_get("MainMenu_panel").destroy();
 });
 panel.add(button);
 
