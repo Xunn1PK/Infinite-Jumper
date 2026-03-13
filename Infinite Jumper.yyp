@@ -88,6 +88,7 @@
     {"id":{"name":"obj_hazard","path":"objects/obj_hazard/obj_hazard.yy",},},
     {"id":{"name":"obj_levelSelect_controller","path":"objects/obj_levelSelect_controller/obj_levelSelect_controller.yy",},},
     {"id":{"name":"obj_mainMenu_controller","path":"objects/obj_mainMenu_controller/obj_mainMenu_controller.yy",},},
+    {"id":{"name":"obj_optionsMenu_controller","path":"objects/obj_optionsMenu_controller/obj_optionsMenu_controller.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"obj_spike_big","path":"objects/obj_spike_big/obj_spike_big.yy",},},
