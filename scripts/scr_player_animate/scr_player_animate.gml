@@ -24,7 +24,7 @@ function player_animate(){
             sprite_index = spr_player_move;
         }
         else if (!sliding){
-            sprite_index = (vspd < -2) ? spr_player_jump_move : spr_player_fall_move;
+            sprite_index = (vspd < 0) ? spr_player_jump_move : spr_player_fall_move;
         }
     }
     else {

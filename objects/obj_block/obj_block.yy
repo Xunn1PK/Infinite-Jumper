@@ -8,8 +8,8 @@
   "name":"obj_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Level Objects",
+    "path":"folders/Objects/Level Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_solid",
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_blocks",
+    "path":"sprites/spr_blocks/spr_blocks.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

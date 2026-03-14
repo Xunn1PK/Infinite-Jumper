@@ -99,6 +99,7 @@
     {"id":{"name":"UI","path":"objects/UI/UI.yy",},},
     {"id":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"id":{"name":"rm_level_parent","path":"rooms/rm_level_parent/rm_level_parent.yy",},},
     {"id":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
@@ -460,6 +461,7 @@
     {"roomId":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
+    {"roomId":{"name":"rm_level_parent","path":"rooms/rm_level_parent/rm_level_parent.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
