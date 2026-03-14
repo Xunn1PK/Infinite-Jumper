@@ -1,7 +1,6 @@
 x = obj_player.x;
 x = obj_player.y;
 x_offset = 0;
-y_offset = 0;
 width = 640;
 height = 360;
 
