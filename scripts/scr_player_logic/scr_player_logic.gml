@@ -31,7 +31,7 @@ function player_logic(){
         }
     }
     if (place_meeting(x, y + 1, obj_solid)){
-        if (mouse(mb_left, MOUSE.HOLD, false)){
+        if (mouse(mb_left, MOUSE.HOLD, false) && !place_meeting(x, y - 1, obj_solid)){
             vspd = impulse;
         }
         if (!place_meeting(x + dir, y - 4, obj_solid) && place_meeting(x + dir, y, obj_solid)){
