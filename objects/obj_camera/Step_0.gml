@@ -1,10 +1,9 @@
-var x_diff = x - obj_player.x;
 var y_diff = y - obj_player.y;
 
-if (side == 1 && abs(x_diff > 64)){ 
+if (side == 1){ 
     x_offset = lerp(x_offset, obj_player.step * 15, 0.1);
 }
-else if (side == -1 && abs(x_diff > 64)){
+else if (side == -1){
     x_offset = lerp(x_offset, -obj_player.step * 15, 0.1);
 }
 
