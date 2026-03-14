@@ -1,5 +1,6 @@
 //USE ONLY IN obj_player!!!
 
+/// @desc Main player logic script (move, physics, death etc.)
 function player_logic(){
     //Death check
     if (dead){
@@ -32,6 +33,13 @@ function player_logic(){
     if (place_meeting(x, y + 1, obj_solid)){
         if (mouse(mb_left, MOUSE.HOLD, false)){
             vspd = impulse;
+        }
+        if (!place_meeting(x + dir, y - 4, obj_solid) && place_meeting(x + dir, y, obj_solid)){
+            sliding = true;
+            y -= 4;
+        }
+        else {
+            sliding = false;
         }
     }
     else {

@@ -1,6 +1,6 @@
 //USE ONLY IN obj_player!!!
 /// @desc Returns sprites, depending on X and Y difference between current and previous frame
-/// @return {Asset.GMSprite} Player sprite
+/// @returns {Asset.GMSprite} Player sprite
 function player_animate(){
     var x_diff = x - xprevious;
     var y_diff = y - yprevious;
@@ -23,8 +23,8 @@ function player_animate(){
         if (place_meeting(x, y + 1, obj_solid)){
             sprite_index = spr_player_move;
         }
-        else {
-            sprite_index = (vspd < -2) ? spr_player_jump_move : spr_player_fall_move;
+        else if (!sliding){
+            sprite_index = (vspd < 0) ? spr_player_jump_move : spr_player_fall_move;
         }
     }
     else {

@@ -2,6 +2,7 @@
     "UI": {
         "start": "Start",
         "exit": "Exit",
+        "options": "Options",
         "exit_confirm": "Are you sure want to exit?",
         "yes": "Yes",
         "no": "No",
